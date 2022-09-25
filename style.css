@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  padding-left: 10%;
+  width: 90%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+main{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height:700px;
+}
+.containerLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 50px;
+  gap: 20px;
+}
+.containerRight{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:50%;
+  padding: 50px;
+  gap: 20px;
+}
+.boxLeft{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: gainsboro;
+  width: 80%;
+  height: 500px;
+}
+.shipments{
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid gray;
+}
+.lastShipments{
+  border-bottom: 0px solid gainsboro;
+}
+.boxRight{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: gainsboro;
+  width: 60%;
+  height: 500px;
+}
+.template{
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid gray;
+}
+.lastTemplate{
+  border-bottom: 0px solid gainsboro;
+}
+.template{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.template p{
+  font-family: 'Inter', sans-serif;
+}
+button{
+  color: #F21737;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #F21737;
+  background-color: white;
+  font-size: 24px;
+  width: 280px;
+  border-radius: 4px;
+}
+button:hover{
+  background-color: #F21737;
+  color: aliceblue;
+  border: 1px solid white;
+}
+.buttonSection{
+  display: flex;
+  gap: 10px;
+}
+.buttonSection2{
+  display: flex;
+  gap: 10px;
+}
+.addSupplyButton{
+  width:250px;
+}
+.shipments{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shipments p{
+  font-family: 'Inter', sans-serif;
+}
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 82px;
+}
+
+p{
+  font-family: 'Inter', sans-serif;
+}
+
+select{
+  font-family: 'Inter', sans-serif;
+  width:200px;
+}
+input{
+  width:200px;
+}
+.headerContent{
+  display: flex;
+  flex-direction: column;
+}
+.navContainer{
+  align-self: center;
+  padding:30px;
+}
+
+.nav{
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 20px;
+  background-color: #F21737;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a{
+  font-family: 'Inter', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.aContainer{
+  height:20px;
+  border-radius: 10px;
+}
+.aContainer:hover{
+  background-color: #d80020;
+}

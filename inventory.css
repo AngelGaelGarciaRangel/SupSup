@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  padding-left: 10%;
+  width: 90%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+main{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height:700px;
+}
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 82px;
+}
+
+p{
+  font-family: 'Inter', sans-serif;
+}
+.containerLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  padding: 50px;
+  gap: 20px;
+}
+.containerRight{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:30%;
+  padding: 50px;
+  gap: 20px;
+}
+
+.dayBox{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.dayBox p{
+  font-size: 16px;
+  color: gray;
+}
+.caducation{
+  padding: 20px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #F21737;
+  border-radius: 20px;
+}
+.caducation p{
+  color: white;
+}
+
+.almostCaducated{
+  background-color: #f21738b4;
+}
+
+.notcaducated{
+  background-color: gray;
+}
+
+.headerContent{
+  display: flex;
+  flex-direction: column;
+}
+.navContainer{
+  align-self: center;
+  padding:30px;
+}
+
+.nav{
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 20px;
+  background-color: #F21737;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a{
+  font-family: 'Inter', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.aContainer{
+  height:20px;
+  border-radius: 10px;
+}
+.aContainer:hover{
+  background-color: #d80020;
+}
